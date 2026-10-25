@@ -1,0 +1,24 @@
+# Python virtual environment and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Environment secrets and credentials
+.env
+.streamlit/secrets.toml
+
+# SQLite Database files
+*.db
+chat_history.db
+
+# OS and IDE temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.gif
+fast_demo_video.webp
